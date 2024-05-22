@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@section('content')
+<x-dashboard.layout>
     <div class="container-fluid">
 
         <!-- start page title -->
@@ -78,7 +76,8 @@
                             <div class="col-sm-6">
                                 <p class="text-muted">This month</p>
                                 <h3>$34,252</h3>
-                                <p class="text-muted"><span class="text-success me-2"> 12% <i class="mdi mdi-arrow-up"></i>
+                                <p class="text-muted"><span class="text-success me-2"> 12% <i
+                                            class="mdi mdi-arrow-up"></i>
                                     </span> From previous period</p>
 
                                 <div class="mt-4">
@@ -203,7 +202,8 @@
                             <p class="font-16 text-muted mb-2"></p>
                             <h5><a href="javascript: void(0);" class="text-dark">Facebook - <span
                                         class="text-muted font-16">125 sales</span> </a></h5>
-                            <p class="text-muted">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
+                            <p class="text-muted">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
+                                libero
                                 venenatis faucibus tincidunt.</p>
                             <a href="javascript: void(0);" class="text-primary font-16">Learn more <i
                                     class="mdi mdi-chevron-right"></i></a>
@@ -410,7 +410,8 @@
                                     <tr>
                                         <th style="width: 20px;">
                                             <div class="form-check font-size-16 align-middle">
-                                                <input class="form-check-input" type="checkbox" id="transactionCheck01">
+                                                <input class="form-check-input" type="checkbox"
+                                                    id="transactionCheck01">
                                                 <label class="form-check-label" for="transactionCheck01"></label>
                                             </div>
                                         </th>
@@ -427,7 +428,8 @@
                                     <tr>
                                         <td>
                                             <div class="form-check font-size-16">
-                                                <input class="form-check-input" type="checkbox" id="transactionCheck02">
+                                                <input class="form-check-input" type="checkbox"
+                                                    id="transactionCheck02">
                                                 <label class="form-check-label" for="transactionCheck02"></label>
                                             </div>
                                         </td>
@@ -458,7 +460,8 @@
                                     <tr>
                                         <td>
                                             <div class="form-check font-size-16">
-                                                <input class="form-check-input" type="checkbox" id="transactionCheck03">
+                                                <input class="form-check-input" type="checkbox"
+                                                    id="transactionCheck03">
                                                 <label class="form-check-label" for="transactionCheck03"></label>
                                             </div>
                                         </td>
@@ -471,7 +474,8 @@
                                             $380
                                         </td>
                                         <td>
-                                            <span class="badge badge-pill badge-soft-danger font-size-11">Chargeback</span>
+                                            <span
+                                                class="badge badge-pill badge-soft-danger font-size-11">Chargeback</span>
                                         </td>
                                         <td>
                                             <i class="fab fa-cc-visa me-1"></i> Visa
@@ -489,7 +493,8 @@
                                     <tr>
                                         <td>
                                             <div class="form-check font-size-16">
-                                                <input class="form-check-input" type="checkbox" id="transactionCheck04">
+                                                <input class="form-check-input" type="checkbox"
+                                                    id="transactionCheck04">
                                                 <label class="form-check-label" for="transactionCheck04"></label>
                                             </div>
                                         </td>
@@ -519,7 +524,8 @@
                                     <tr>
                                         <td>
                                             <div class="form-check font-size-16">
-                                                <input class="form-check-input" type="checkbox" id="transactionCheck05">
+                                                <input class="form-check-input" type="checkbox"
+                                                    id="transactionCheck05">
                                                 <label class="form-check-label" for="transactionCheck05"></label>
                                             </div>
                                         </td>
@@ -549,7 +555,8 @@
                                     <tr>
                                         <td>
                                             <div class="form-check font-size-16">
-                                                <input class="form-check-input" type="checkbox" id="transactionCheck06">
+                                                <input class="form-check-input" type="checkbox"
+                                                    id="transactionCheck06">
                                                 <label class="form-check-label" for="transactionCheck06"></label>
                                             </div>
                                         </td>
@@ -562,7 +569,8 @@
                                             $404
                                         </td>
                                         <td>
-                                            <span class="badge badge-pill badge-soft-warning font-size-11">Refund</span>
+                                            <span
+                                                class="badge badge-pill badge-soft-warning font-size-11">Refund</span>
                                         </td>
                                         <td>
                                             <i class="fab fa-cc-visa me-1"></i> Visa
@@ -579,7 +587,8 @@
                                     <tr>
                                         <td>
                                             <div class="form-check font-size-16">
-                                                <input class="form-check-input" type="checkbox" id="transactionCheck07">
+                                                <input class="form-check-input" type="checkbox"
+                                                    id="transactionCheck07">
                                                 <label class="form-check-label" for="transactionCheck07"></label>
                                             </div>
                                         </td>
@@ -616,4 +625,4 @@
         </div>
         <!-- end row -->
     </div>
-@endsection
+</x-dashboard.layout>
