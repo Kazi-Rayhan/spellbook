@@ -44,4 +44,21 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+    
+    /**
+     * return users avatar image as full url
+     *
+     * @return string
+     */
+    public function getAvatar(): string
+    {
+        return asset('assets/avatar.png');
+    }
+
+    public function dashboardUrl(): string
+    {
+        return route('admin.dashboard');
+    }
 }
+
+

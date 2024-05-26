@@ -11,7 +11,7 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}">
 
     <!-- Bootstrap Css -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
@@ -19,8 +19,6 @@
     <link href="{{ asset('assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link href="{{ asset('assets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
-    <!-- App js -->
-    <script src="{{ asset('assets/js/plugin.js') }}"></script>
 
 </head>
 
@@ -46,6 +44,7 @@
 
             <div class="page-content">
                 <div class="container-fluid">
+                    @csrf
                     {{ $slot }}
                 </div>
                 <!-- container-fluid -->
@@ -59,11 +58,11 @@
                         <div class="col-sm-6">
                             <script>
                                 document.write(new Date().getFullYear())
-                            </script> © Skote.
+                            </script> © Spelloook.
                         </div>
                         <div class="col-sm-6">
                             <div class="text-sm-end d-none d-sm-block">
-                                Design & Develop by Themesbrand
+                                Design & Develop by Kazi Rayhan Reza
                             </div>
                         </div>
                     </div>
@@ -94,7 +93,5 @@
     <script src="{{ asset('assets/js/app.js') }}"></script>
 </body>
 
-
-<!-- Mirrored from themesbrand.com/skote/layouts/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Jan 2024 14:14:09 GMT -->
 
 </html>
